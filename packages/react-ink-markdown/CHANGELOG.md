@@ -1,5 +1,14 @@
 # @assistant-ui/react-ink-markdown
 
+## 0.0.55
+
+### Patch Changes
+
+- [#10585](https://github.com/assistant-ui/assistant-ui/pull/10585) [`a47ab10`](https://github.com/assistant-ui/assistant-ui/commit/a47ab10321e5e51f6278cb6158f68d6f72aa9ed4) - `MarkdownText` only emits OSC 8 hyperlinks for absolute http and https URLs, and writes the normalized URL into the sequence. If a message has a link with any other scheme, or a relative link, the message renders as with hyperlinks off, so every link shows its destination as text. ([@Yonom](https://github.com/Yonom))
+- Updated dependencies [[`528bfe9`](https://github.com/assistant-ui/assistant-ui/commit/528bfe964f1306f7070fd4efe034873b5f1cfe45), [`f1a812d`](https://github.com/assistant-ui/assistant-ui/commit/f1a812d2d1a6c824ea397d798a9b158f750b7804), [`8f30cfc`](https://github.com/assistant-ui/assistant-ui/commit/8f30cfc76b6e1483cc390a293eafc4d8fffb2bcd), [`11afc02`](https://github.com/assistant-ui/assistant-ui/commit/11afc0276e87cc0834342d6fdeeaaf0595fccdbe), [`cba4061`](https://github.com/assistant-ui/assistant-ui/commit/cba406112b09de49e99764b51a9d90a8ca952cc7), [`8c67589`](https://github.com/assistant-ui/assistant-ui/commit/8c67589ca1b3ffac888c19e9a2759ee7c052ce4b), [`48b920e`](https://github.com/assistant-ui/assistant-ui/commit/48b920eebdfbbe169bd408782fd7f364e84e9621), [`b43be24`](https://github.com/assistant-ui/assistant-ui/commit/b43be2420a395ec193a01a8e85bf818c76a7cc90), [`8b606de`](https://github.com/assistant-ui/assistant-ui/commit/8b606de5b53572fb3da8be799f7324031b885524)]:
+  - @assistant-ui/core@0.3.37
+  - @assistant-ui/store@0.3.24
+
 ## 0.0.54
 
 ### Patch Changes
